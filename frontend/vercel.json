@@ -1,5 +1,5 @@
-{
-  "buildCommand": "npm install && npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install"
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "vercel-build": "npm install && vite build"
 }
